@@ -1,0 +1,47 @@
+{
+  "name": "drawing",
+  "version": "1.0.0",
+  "description": "This is my portfolio written in js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "prettier": "2.2.1",
+    "source-map": "^0.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MansanSouleimanAhmed/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MansanSouleimanAhmed/portfolio/issues"
+  },
+  "homepage": "https://github.com/MansanSouleimanAhmed/portfolio#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "babel-core": "^6.0.20",
+    "babel-polyfill": "^6.0.16",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15"
+  }
+}
